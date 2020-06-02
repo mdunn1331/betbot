@@ -5,7 +5,8 @@ const { prefix, token } = require('./config.json');
 
 //const objs
 const client = new Discord.Client();
-const storageClient = new KeyV('sqlite:storedPoints.sqlite');
+const storageClient = new KeyV();
+// readd sql later: 'sqlite:storedPoints.sqlite'
 
 //Var Dict
 var pointsCurrentlyBet = {};
