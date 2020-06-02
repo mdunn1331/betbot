@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/mdunn1331/betbot#readme",
   "dependencies": {
-   //re-add sql - "@keyv/sqlite": "^2.0.2",
     "discord.js": "^12.2.0",
     "keyv": "^4.0.1"
   }
