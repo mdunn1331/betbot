@@ -1,0 +1,27 @@
+{
+  "name": "betbot",
+  "version": "1.0.0",
+  "description": "Discord bot for gambling on nonsense",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdunn1331/betbot.git"
+  },
+  "keywords": [
+    "bet"
+  ],
+  "author": "Mdunn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdunn1331/betbot/issues"
+  },
+  "homepage": "https://github.com/mdunn1331/betbot#readme",
+  "dependencies": {
+    "@keyv/sqlite": "^2.0.2",
+    "discord.js": "^12.2.0",
+    "keyv": "^4.0.1"
+  }
+}
