@@ -52,7 +52,7 @@ client.on('message', async message => {
 	}
 })
 
-client.login(token);
+client.login(process.env.CLIENT_TOKEN);
 
 //keyv
 storageClient.on('error', err => console.error('Keyv connection error:', err));
