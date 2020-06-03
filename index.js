@@ -51,7 +51,7 @@ client.on('message', async message => {
 		await storageClient.set(`${message.author.id}_betting`, 0);
 		return message.channel.send(`${username} has lost! total points lifetime ${currPoints - lostPoints}`);
 	} else if(command === 'help') {
-		return message.channel.send('Following Commands are available:\n\t ~~bet <amount to bet> : enters and sets your bet \n\t ~~win : denotes a win and awards you points \n\t ~~lose : denotes a loss and subtracts points')
+		return message.channel.send('Following Commands are available:\n\t \~\~bet <amount to bet> : enters and sets your bet \n\t \~\~win : denotes a win and awards you points \n\t \~\~lose : denotes a loss and subtracts points')
 	}
 })
 
